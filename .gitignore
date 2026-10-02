@@ -1,0 +1,43 @@
+# Environment & Keys (CRITICAL: Never commit API keys!)
+.env
+*.env
+.env.*
+!.env.example
+
+# Large Binaries & Executables
+*.exe
+cloudflared.exe
+*.dll
+*.so
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Streamlit
+.streamlit/
+
+# IDE & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs & Temp
+*.log
+logs/
+scratch/
